@@ -1,0 +1,27 @@
+{
+  "name": "your-bot-name",
+  "version": "1.0.0",
+  "description": "A Telegram bot with update, auth, broadcast, premium images, and permission features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: No test script specified.\""
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "update",
+    "auth",
+    "broadcast",
+    "premium",
+    "permissions"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^5.4.1",
+    "@google/generative-ai": "^0.4.0",
+    "@octokit/rest": "^20.3.1"
+  }
+}
